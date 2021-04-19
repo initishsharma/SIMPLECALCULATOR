@@ -1,13 +1,15 @@
 body{
-    background-image: linear-gradient(to right,palegreen, lightblue);
+    background-image: linear-gradient(to right,rgb(17, 64, 194), lightblue);
     margin: 0;
     background-size: 100vh;
     background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .container{
     position: relative;
-    background-color: rgba(0, 0, 0, 0.842);
+    background-color: rgba(16, 124, 238, 0.842);
     height: 35%;
     width: fit-content;
     border-radius: 0.7em;
@@ -39,7 +41,7 @@ body{
     height: 2.8rem;
     font-size: large;
     color: black;
-    background-color: lightslategray;
+    background-color: rgb(247, 251, 255);
     padding-right: 0.6rem;
 }
 
